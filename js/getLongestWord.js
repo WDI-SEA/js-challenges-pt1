@@ -21,16 +21,24 @@
     
 // }
 // splited();
-function getLongestWord(wordToCheck){
-    var strToArr=  wordToCheck.split(' ');
-    var x = [];
-    strToArr.forEach(function(word){
-        var h = word.length + ' ' + word;
-        console.log(h)
-        x.push(h);
-    });
-    // var arrToStr = x.join(' ');
-    // console.log(arrToStr);
+// function getLongestWord(wordToCheck){
+//     var strToArr=  wordToCheck.split(' ');
+//     var x = [];
+//     strToArr.forEach(function(word){
+//         var h = word.length + ' ' + word;
+//         console.log(h)
+//         x.push(h);
+//     });
+//     // var arrToStr = x.join(' ');
+//     // console.log(arrToStr);
+// }
+//solution in class
+function getLongestWord(str){
+    var arr = str.split(' ');
+    arr.forEach(function(word){
+        if(word.lenght > count){
+            count = word.lenght;
+        }
+    });return count;
 }
-
   

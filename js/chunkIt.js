@@ -4,6 +4,6 @@ var chunkIt = function(arr,length){
         myChunk = arr.slice(i, i + length);
         newArr.push(myChunk);
     }
-   console.log(newArr);
+   return newArr;
 }
-chunkIt(["potatoes","molasses","greg","wirt","beatrice","adelaide","mrs. whispers","abc"], 3);
+console.log(chunkIt(["potatoes","molasses","greg","wirt","beatrice","adelaide","mrs. whispers","abc"], 3));

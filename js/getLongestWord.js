@@ -23,11 +23,11 @@
 // splited();
 function getLongestWord(wordToCheck){
     var strToArr=  wordToCheck.split(' ');
-    // var x = [];
+    var x = [];
     strToArr.forEach(function(word){
         var h = word.length + ' ' + word;
         console.log(h)
-        // x.push(h);
+        x.push(h);
     });
     // var arrToStr = x.join(' ');
     // console.log(arrToStr);

@@ -19,7 +19,12 @@ function titleize(str) {
   var arr = str.split(' ');
   var newArr = [];
   for (var word of arr) {
-    newArr.push(word[0].toUpperCase() + word.slice(1));
+    if (word === "at" || word === "or" || word === 'the' || word === 'and') {
+      newArr.push(word);
+    } else {
+      newArr.push(word[0].toUpperCase() + word.slice(1));
+    }
+    
   }
   
   return newArr.join(' ');

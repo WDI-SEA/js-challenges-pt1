@@ -26,8 +26,12 @@ var newArr = [];
 function titleize(str1) {
     
     for (var item of arr1) {
+        if ((item !== "the") &&  (item !== "at") && (item !== "and") && (item !== "of")) {
         item = newArr.push(item.charAt(0).toUpperCase() + item.slice(1));
         //console.log(letter);
+        } else {
+            item = newArr.push(item);
+        }
     }
 return newArr.join(' ');
 }

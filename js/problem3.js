@@ -23,7 +23,7 @@ function chunkIt(arr, length) {
     while(arr.length >0) {
     //taking the spliced segments completely out of original array
     //pushing these subarrays into new array
-        splitArr.push(array.splice(0, length));
+        splitArr.push(arr.splice(0, length));
     }
     return splitArr;
   }

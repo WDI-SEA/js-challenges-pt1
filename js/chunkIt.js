@@ -16,3 +16,20 @@ function chunkIt(arr, num){
 chunkIt(["potatoes","molasses","greg","wirt"], 2);
 
 chunkIt(["potatoes","molasses","greg","wirt","beatrice","adelaide","mrs. whispers"], 3);
+
+//******************************************************************************* */
+//******************************************************************************* */
+//************************* */
+//Easy Way to do it bellow
+//************************** */
+// function chunkIt(arr, length){
+// 	const extraChunky = [];
+// 	let i = 0;
+// 	while(i < arr.length) {
+// 	  extraChunky.push(arr.slice(i, i+length));
+// 	  i += length;
+// 	}
+// 	return extraChunky;
+//   }
+//   // chunkIt(["potatoes","molasses","greg","wirt"], 2);
+//   chunkIt(["potatoes","molasses","greg","wirt","beatrice","adelaide","mrs. whispers"], 3);

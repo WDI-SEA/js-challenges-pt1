@@ -1,5 +1,10 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) JS Challenges Pt 1
 
+## Prereqs:
+* JS primitives
+* JS arrays
+* JS functions
+
 ## Getting Started
 1. **Fork and clone** this repository
 2. Create a file in the `js` subdirectory for each solution name the same as the function specified 
